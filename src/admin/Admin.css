@@ -1,0 +1,239 @@
+.nav__search {
+    width: 500px;
+    height: 40px;   
+}
+
+.nav__search .search__box {
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.admin_section {
+    padding: 40px 0 0;
+    min-height: calc(100vh - 420px);
+}
+
+.admin__menu{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background: #d0ddf2;
+    padding: 0;
+    
+}
+
+.admin__navigation{
+    text-align: center;
+}
+
+.admin__menu-list{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    justify-content: center;
+    
+}
+
+.admin__menu-list .admin__menu-item a{
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    background: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 12px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.2s ease-in-out;
+}
+
+.admin__menu-list .admin__menu-item a:hover,
+.admin__menu-list .admin__menu-item a:focus{
+    background: #e0e6f7;
+}
+
+.admin__menu-list .admin__menu-item.active__admin-menu a{
+    /* background: #e0e6f7; */
+    color: #000;
+}
+
+.section_header {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.section_header span{
+    color: #000;
+    display: block;
+    font-weight: bold; 
+}
+
+.nav_action {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+}
+
+.section_header .search__box {
+    width: 400px;
+    height: 40px;
+    display: inline-flex;
+}
+
+.nav_button, .nav_button a {
+    display: inline-flex;
+    width: 100px;
+    height: 42px;  
+    padding: 0 7px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.import_button {
+    background-color: #636e72;
+}
+
+.export_button {
+    background-color: #27ae60;
+}
+
+.add_button {
+    background-color: #1d3557;
+}
+
+.detail_button {
+    width: auto;
+    /* background-color: #95a5a6; */
+    /* padding: 0 2px; */
+}
+.nav_button span {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.nav_button .nav_button_icon {
+    color: #fff; 
+    margin-right: 5px;
+} 
+
+.detail_button .nav_button_icon {
+    margin: 0;
+    color: #000;
+    font-size: 30px;
+}
+
+.detail_button span {
+    margin: 0;
+    color: #00000085; 
+    user-select: none;
+}
+
+.print_button {
+    width: auto;
+    background-color: #34495e;
+}
+
+.print_button span {
+    font-size: 15px;
+}
+
+.addProductButton {
+    display: block !important;
+    width: 200px;
+    height: 70px;
+    margin: 20px auto !important;   
+}
+
+.under {
+    width: 100%;
+    /* height: 100px; */
+    background-color: #fff;
+    overflow: hidden;
+    display: none;
+}
+
+.bill {
+    width: 800px;
+    min-height: 100px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    text-align: justify;
+    padding: 10px 15px;
+}
+
+.bill-print {
+    position: absolute;
+    z-index: 9999;
+    color: #000;
+    font-size: 16px;
+    left: 100%;
+}
+
+.bill-info {
+    color: #000;
+    font-size: 17px;
+    display: block;
+}
+
+.bill-info.money {
+    margin-top: 10px;
+    font-size: 19px;
+    text-align: right;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    margin: 15px 0;
+}
+
+.bill table th,
+.bill table tr,
+.bill table td {
+    background-color: #fff;
+    border: 1px solid #000;
+}  
+
+.under.active { 
+    display: table-cell;
+}
+
+.Delivering {
+    color: #f9ca24;
+    font-weight: bold;
+}
+
+.Done {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.Cancel {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.right-form {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+    /* padding: 10px; */
+    /* border: 2px solid #474747; */
+    /* border-radius: 5px; */
+} 
